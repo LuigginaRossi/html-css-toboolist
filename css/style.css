@@ -13,8 +13,64 @@ header{
     background-color: white;
     padding: 1em;
 }
+main{
+    margin: 1rem 2rem;
+}
 
 #toboolist_title{
     display: inline-block;
-    font-size: 3em;
+    font-size: 3rem;
+}
+
+#conteiner{
+    background-color: white;
+    width: 60vw;
+    height: 80vh;
+    margin: 5% auto;
+    /* padding: 1rem; */
+}
+
+.point_list{
+    margin: 1em 0;
+}
+
+.button{
+    border: 0.5px solid lightgrey;
+    padding: 0.40em;
+    border-radius: 10px;
+    margin: 1em 2em;
+}
+
+.blue.button{
+    background-color: rgb(6, 131, 189);
+    color: white;
+    margin-right: 0;
+} 
+
+.white.button{
+    color: grey;
+    margin-left: 0;
+}
+
+.triangle{
+    font-size: 0.80em;
+}
+
+.check_mark{
+    background-color: white;
+    border: 1px solid green;
+    color:green;
+    border-radius: 50%;
+    padding: 5px; 
+    font-size: 0.80rem;
+}
+
+.badge{
+    text-decoration: none;
+    color: white;
+    background-color:  rgb(6, 131, 189);
+    padding: 0.40em;
+    border-radius: 10px;
+    
+
 }
