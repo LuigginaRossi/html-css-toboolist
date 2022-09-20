@@ -70,6 +70,7 @@ section{
     display: inline-block;
     height: 1.50em;
     width: 1.50em;
+    line-height: 1.50em;
 }
 
 .badge{
