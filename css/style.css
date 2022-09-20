@@ -65,9 +65,11 @@ section{
     border: 1px solid green;
     color:green;
     border-radius: 50%;
-    padding: 3px; 
-    font-size: 0.80rem;
-    font-size: smaller;
+    text-align: center;
+    font-size: xx-small;
+    display: inline-block;
+    height: 1.50em;
+    width: 1.50em;
 }
 
 .badge{
@@ -103,3 +105,4 @@ section{
 .badge.sale{
     background-color: rgb(81, 134, 43);
 }
+
