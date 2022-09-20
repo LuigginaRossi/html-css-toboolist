@@ -17,6 +17,10 @@ main{
     margin: 1rem 2rem;
 }
 
+section{
+    margin-top: 2em;
+}
+
 #toboolist_title{
     display: inline-block;
     font-size: 3rem;
@@ -61,8 +65,9 @@ main{
     border: 1px solid green;
     color:green;
     border-radius: 50%;
-    padding: 5px; 
+    padding: 3px; 
     font-size: 0.80rem;
+    font-size: smaller;
 }
 
 .badge{
@@ -70,7 +75,31 @@ main{
     color: white;
     background-color:  rgb(6, 131, 189);
     padding: 0.40em;
-    border-radius: 10px;
-    
+    border-radius: 20px;
+    font-size: small;
+}
 
+.x.check_mark{
+    color: red;
+    border-color: red;
+}
+
+.badge.goals{
+    background-color: rgb(84, 35, 129);
+}
+
+.badge.recruiting{
+    background-color: rgb(60, 167, 131);
+}
+
+.badge.mobile{
+    background-color: rgb(223, 87, 37);
+}
+
+.badge.website{
+    background-color: rgb(168, 33, 55);
+}
+
+.badge.sale{
+    background-color: rgb(81, 134, 43);
 }
